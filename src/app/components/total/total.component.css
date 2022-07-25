@@ -1,0 +1,12 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container span{
+    font-size: 25px;
+}
+.container h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+}

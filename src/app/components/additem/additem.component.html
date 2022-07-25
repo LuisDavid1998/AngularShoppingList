@@ -1,20 +1,23 @@
-<form action="" (ngSubmit)="onSubmit()">
-    <h2>Add new article</h2>
-    <div>
-        <label for="id">Article id</label>
-        <input type="text" name="id" id="id" [(ngModel)]="id">
-    </div>
-    <div>
-        <label for="title">Article name</label>
-        <input type="text" name="title" id="title" [(ngModel)]="title">
-    </div>
-    <div>
-        <label for="price">Article price</label>
-        <input type="text" name="price" id="price" [(ngModel)]="price">
-    </div>
-    <div>
-        <label for="quantity">Article Quantity</label>
-        <input type="text" name="quantity" id="quantity" [(ngModel)]="quantity">
-    </div>
-    <input type="submit" value="Create">
-</form>
+<div class="container">
+    <form  action="" (ngSubmit)="onSubmit()">
+        <h2 class="title">Add new article</h2>
+        <div>
+            <label for="id">Article id</label> <br>
+            <input type="text" name="id" id="id" [(ngModel)]="id">
+        </div>
+        <div>
+            <label for="title">Article name</label> <br>
+            <input type="text" name="title" id="title" [(ngModel)]="title">
+        </div>
+        <div>
+            <label for="price">Article price</label> <br>
+            <input type="text" name="price" id="price" [(ngModel)]="price">
+        </div>
+        <div>
+            <label for="quantity">Article Quantity</label> <br>
+            <input type="text" name="quantity" id="quantity" [(ngModel)]="quantity">
+        </div>
+        <input class="button" type="submit" value="Create">
+    </form>
+</div>
+
